@@ -222,3 +222,11 @@ h1{
   margin-left: .5in;
   margin-right: .5in;
 }
+.a1{
+  margin-right: 15px;
+float: left;
+padding-bottom:1em;
+}
+.us li{
+  padding-bottom: .1in;
+}
