@@ -144,7 +144,7 @@ footer{
   margin:0;
   margin:auto;
     float:left;
-  width:33.3%;
+  width:25%;
 padding-top:1em;
   padding-bottom:1em;
 }
@@ -155,7 +155,7 @@ padding-top:1em;
   margin:0;
   margin:auto;
     float:left;
-  width:33.3%;
+  width:25%;
 padding-top:1em;
   padding-bottom:1em;
   background-color:#303030;
@@ -232,4 +232,41 @@ padding-bottom:1em;
   padding-bottom: .1in;
   list-style: none;
   font-size: 130%;
+}
+
+
+
+#pagenav2{
+  background-color: #FAFAFA;
+
+  margin:0;
+  padding:0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align:center;
+
+}
+#pagenav2 a{
+  color:#3a3a3a;
+  font-family: Arial, Helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  margin:auto;
+    float:left;
+  width:25%;
+padding-top:1em;
+  padding-bottom:1em;
+    background-color:#f2f2f2;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#pagenav2 a:hover{
+  color:grey;
+  font-family: Arial, Helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  margin:auto;
+    float:left;
+  width:25%;
+padding-top:1em;
+  padding-bottom:1em;
+  text-decoration:none;
+  background-color: #dbdcdd;
 }
