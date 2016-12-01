@@ -275,3 +275,28 @@ padding-top:1em;
 #pagenav2 .active2{
   background-color: #cccccc;
 }
+
+.cdtables tr td{
+  border: 1px solid black;
+  padding: 1em;
+  text-align: center;
+}
+.tables table{
+  float:left;
+    width:50%;
+}
+.tablehigh{
+  border: 1px solid black;
+  padding: 1em;
+  text-align: center;
+  background-color: orange;
+}
+.tablehigh2{
+  border: 1px solid black;
+  padding: 1em;
+  text-align: center;
+  background-color: yellow;
+}
+hr{
+border-color: #333;
+}
