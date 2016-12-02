@@ -2,6 +2,9 @@ body{
   padding:0;
   margin:0;
 }
+body::-webkit-scrollbar { 
+    display: none;
+}
 #logo{
     height:1in;
     display:inline;
@@ -226,14 +229,16 @@ h1{
 .a1{
   margin-right: 15px;
 float: left;
-padding-bottom:1em;
 max-width: 3in;
 max-height: 3in;
+margin-right: .5in;
+margin-bottom: .3in;
 }
 .us li{
   padding-bottom: .1in;
   list-style: none;
   font-size: 130%;
+
 }
 
 
@@ -276,6 +281,7 @@ padding-top:1em;
 }
 #pagenav2 .active2{
   background-color: #cccccc;
+  color:grey;
 }
 
 .cdtables tr td{
