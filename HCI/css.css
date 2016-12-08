@@ -348,3 +348,25 @@ padding-top:1em;
 hr{
 border-color: #333;
 }
+#surveybuttons{
+  text-align: center;
+  padding-bottom:1em;
+  display: inline;
+}
+
+#surveybuttons a{
+  padding:1em;
+  text-decoration:none;
+  color:#424242;
+  border-style:solid;
+  display: inline;
+}
+#surveybuttons a:hover{
+  padding:1em;
+  text-decoration:none;
+  color:white;
+  border-style:solid;
+  background-color: #333;
+  border-color: #333;
+  display: inline;
+}
