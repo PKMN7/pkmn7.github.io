@@ -147,7 +147,7 @@ footer{
   margin:0;
   margin:auto;
     float:left;
-  width:20%;
+  width:16.66%;
 padding-top:1em;
   padding-bottom:1em;
 }
@@ -158,7 +158,7 @@ padding-top:1em;
   margin:0;
   margin:auto;
     float:left;
-  width:20%;
+  width:16.66%;
 padding-top:1em;
   padding-bottom:1em;
   background-color:#303030;
@@ -324,6 +324,47 @@ padding-top:1em;
   color:grey;
 }
 
+#pagenav4{
+  background-color: #FAFAFA;
+
+  margin:0;
+  padding:0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align:center;
+
+}
+#pagenav4 a{
+  color:#3a3a3a;
+  font-family: Arial, Helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  margin:auto;
+    float:left;
+  width:33.33%;
+padding-top:1em;
+  padding-bottom:1em;
+    background-color:#f2f2f2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration:none;
+}
+#pagenav4 a:hover{
+  color:grey;
+  font-family: Arial, Helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  margin:auto;
+    float:left;
+  width:33.33%;
+padding-top:1em;
+  padding-bottom:1em;
+  text-decoration:none;
+  background-color: #dbdcdd;
+}
+#pagenav4 .active2{
+  background-color: #cccccc;
+  color:grey;
+}
+
 .cdtables tr td{
   border: 1px solid black;
   padding: 1em;
@@ -348,20 +389,20 @@ padding-top:1em;
 hr{
 border-color: #333;
 }
-#surveybuttons{
+#generalbuttons{
   text-align: center;
   padding-bottom:1em;
   display: inline;
 }
 
-#surveybuttons a{
+#generalbuttons a{
   padding:1em;
   text-decoration:none;
   color:#424242;
   border-style:solid;
   display: inline;
 }
-#surveybuttons a:hover{
+#generalbuttons a:hover{
   padding:1em;
   text-decoration:none;
   color:white;
@@ -369,4 +410,57 @@ border-color: #333;
   background-color: #333;
   border-color: #333;
   display: inline;
+}
+
+#surveybuttonsleft{
+  text-align: center;
+  padding-bottom:1em;
+  display: inline;
+}
+
+#surveybuttonsleft a{
+  padding:1em;
+  text-decoration:none;
+  color:#424242;
+  border-style:solid;
+  display: inline;
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+#surveybuttonsleft a:hover{
+  padding:1em;
+  text-decoration:none;
+  color:white;
+  border-style:solid;
+  background-color: #333;
+  border-color: #333;
+  display: inline;
+  width: 48%;
+}
+
+#surveybuttonsright{
+  text-align: center;
+  padding-bottom:1em;
+  display: inline;
+}
+
+#surveybuttonsright a{
+  padding:1em;
+  text-decoration:none;
+  color:#424242;
+  border-style:solid;
+  display: inline;
+  float: left;
+  width: 48%;
+}
+#surveybuttonsright a:hover{
+  padding:1em;
+  text-decoration:none;
+  color:white;
+  border-style:solid;
+  background-color: #333;
+  border-color: #333;
+  display: inline;
+  width: 48%;
 }
