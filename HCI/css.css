@@ -464,3 +464,96 @@ border-color: #333;
   display: inline;
   width: 48%;
 }
+
+#circle {
+    background: #99CCFF;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    display: table;
+}
+#circle p{
+  display: table-cell;
+  vertical-align: middle;
+}
+.fiveES{
+  width: 100%;
+}
+.fiveES2{
+  width: 50%;
+}
+.five1{
+  background: #D1C4E9;
+  width: 20%;
+  height: 50px;
+  border-radius: 0%;
+  text-align: center;
+  display: table;
+  float: left;
+}
+.five1 p{
+  display: table-cell;
+  vertical-align: middle;
+}
+.five2{
+  background: #BBDEFB;
+  width: 20%;
+  height: 50px;
+  border-radius: 0%;
+  text-align: center;
+  display: table;
+  float: left;
+}
+.five2 p{
+  display: table-cell;
+  vertical-align: middle;
+}
+.five3{
+  background: #C8E6C9;
+  width: 30%;
+  height: 50px;
+  border-radius: 0%;
+  text-align: center;
+  display: table;
+  float: left;
+}
+.five3 p{
+  display: table-cell;
+  vertical-align: middle;
+}
+.five4{
+  background: #FFCCBC;
+  width: 5%;
+  height: 50px;
+  border-radius: 0%;
+  text-align: center;
+  display: table;
+  float: left;
+}
+.five4 p{
+  display: table-cell;
+  vertical-align: middle;
+}
+.five5{
+  background: #FFF59D;
+  width: 15%;
+  height: 50px;
+  border-radius: 0%;
+  text-align: center;
+  display: table;
+  float: left;
+}
+.five5 p{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#e{
+  transform:scale(1.0);
+  -webkit-transform:scale(1.0);
+}
+.fes{
+  padding-left: .5em;
+  padding-right: .5em;
+}
