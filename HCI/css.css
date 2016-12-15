@@ -570,6 +570,7 @@ width:100%;
     cursor: pointer;
     height: 3em;
     width: 100%;
+    outline: 0;
 }
 
 .dropdown {
