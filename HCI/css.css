@@ -481,7 +481,7 @@ border-color: #333;
   width: 100%;
 }
 .fiveES2{
-  width: 50%;
+  width: 100%;
 }
 .five1{
   background: #D1C4E9;
@@ -550,8 +550,7 @@ border-color: #333;
 }
 
 #e{
-  transform:scale(1.0);
-  -webkit-transform:scale(1.0);
+width:100%;
 }
 .fes{
   padding-left: .5em;
@@ -611,3 +610,85 @@ border-color: #333;
   color: #7abcff;
 
 }
+
+
+div.five1 p#a {
+        display:inline;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    div.five1:hover p#a {
+        display:none;
+    }
+    div.five1 p#b {
+        display:none;
+    }
+    div.five1:hover p#b {
+        display:inline;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    div.five2 p#a {
+            display:inline;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        div.five2:hover p#a {
+            display:none;
+        }
+        div.five2 p#b {
+            display:none;
+        }
+        div.five2:hover p#b {
+            display:inline;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        div.five3 p#a {
+                display:inline;
+                display: table-cell;
+                vertical-align: middle;
+            }
+            div.five3:hover p#a {
+                display:none;
+            }
+            div.five3 p#b {
+                display:none;
+            }
+            div.five3:hover p#b {
+                display:inline;
+                display: table-cell;
+                vertical-align: middle;
+            }
+            div.five4 p#a {
+                    display:inline;
+                    display: table-cell;
+                    vertical-align: middle;
+                }
+                div.five4:hover p#a {
+                    display:none;
+                }
+                div.five4 p#b {
+                    display:none;
+                }
+                div.five4:hover p#b {
+                    display:inline;
+                    display: table-cell;
+                    vertical-align: middle;
+                }
+                div.five5 p#a {
+                        display:inline;
+                        display: table-cell;
+                        vertical-align: middle;
+                    }
+                    div.five5:hover p#a {
+                        display:none;
+                    }
+                    div.five5 p#b {
+                        display:none;
+                    }
+                    div.five5:hover p#b {
+                        display:inline;
+                        display: table-cell;
+                        vertical-align: middle;
+                    }
