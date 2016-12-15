@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>
+            Spirit Washers
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="icon" href="ico2.png" />
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="css.css" />
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div id="full">
+  <header>
+    <div id="container">
+<img src="StudySesh.png" id="logo"></img>
+  </div>
+
+
+  </header>
+  <nav id="pagenav">
+        <a href="index.html">Introduction</a>
+        <a href="team.html">Team</a>
+        <a href="users.html">Users</a>
+        <a href="info.html">Information Gathering</a>
+        <a href="development.html" class="active">Development</a>
+        <br clear="all">
+      </nav>
+      <nav id="pagenav2">
+        <a href="cd.html" class="active2">Content Diagramming</a>
+        <a href="lofi.html">Lo-Fi Prototype</a>
+        <a href="midfi.html">Mid-Fi Prototype</a>
+        <a href="hifi.html">Hi-Fi Prototype</a><br clear="all">
+      </nav>
+    <div id="wrapper">
+  <article>
+    <div id="thearticle">
+        <div id="teammemo">
+          <h1>Content Diagramming</h1>
+          <div class="texts">
+            <br><center><h3>Task Scenario: Add Classes to Profile</h3></center>
+            <p>Mike is in his junior year of college and wants to switch his major after deciding he wants to pursue a career in HCI. Only problem, however, is that the courses are much more intense! So, he decides he needs to start working with others more often. Mike hears about an app that can help him find others to study with at anytime, decides to download it, and input his classes so he can get started.</p>
+            <br><center><h4>ESSENTIAL USE CASE</h4></center>
+            <center><table class="cdtables">
+              <tr>
+                <td><b>User's Purpose</b></td>
+                <td><b>System Response</b></td>
+              </tr>
+              <tr>
+                <td>Enter search for current courses</td>
+                <td>Show search results</td>
+              </tr>
+              <tr>
+                <td>Select proper course</td>
+                <td>Add course to user profile</td>
+              </tr>
+            </table></center>
+
+            <br><center><h4>CONCRETE USE CASE</h4></center>
+            <center><table class="cdtables">
+              <tr>
+                <td><b>User's Purpose</b></td>
+                <td><b>System Response</b></td>
+              </tr>
+              <tr>
+                <td>The student enters search parameters for the course; class name, course number. </td>
+                <td>Show search results</td>
+              </tr>
+              <tr>
+                <td>The student selects registered course from search results.</td>
+                <td>Display feedback of verification that course was added to profile.</td>
+              </tr>
+            </table></center>
+
+<br>
+            <center>
+              <div class="tables"><table class="cdtables">
+              <tr class="tablehigh">
+                <td><b>Task Object</b></td>
+                <td><b>Attributes</b></td>
+                <td><b>Actions</b></td>
+              </tr>
+              <tr>
+                <td>Student</td>
+                <td>Profile</td>
+                <td>Show Courses</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>Add Course</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>Drop Course</td>
+              </tr>
+            </table>
+
+            <table class="cdtables">
+              <tr class="tablehigh2">
+                <td><b>Task Object</b></td>
+                <td><b>Attributes</b></td>
+                <td><b>Actions</b></td>
+              </tr>
+              <tr>
+                <td>Course</td>
+                <td>Course Name</td>
+                <td>See Groups</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Course Code</td>
+                <td>Join Groups</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Section</td>
+                <td></td>
+              </tr>
+            </table>
+          </div>
+
+          </center>
+<br clear="all">
+<br><br>
+<hr>
+<br><center><h3>Task Scenario: Create Study Session</h3></center>
+<p>It's now midterm time on campus and Mike does not feel as comfortable with his class material as he would like. Unfortunately, he doesn't know anyone in his classes but still needs to find a way to get a study session going. Since his classes are already added to the study session app, he decides to use it to get a study session started and attract others looking to study as well.</p>
+<br><center><h4>ESSENTIAL USE CASE</h4></center>
+<center><table class="cdtables">
+  <tr>
+    <td><b>User's Purpose</b></td>
+    <td><b>System Response</b></td>
+  </tr>
+  <tr>
+    <td>Select create group button</td>
+    <td>Display current courses</td>
+  </tr>
+  <tr>
+    <td>Select course for study group</td>
+    <td>Display potential study locations</td>
+  </tr>
+  <tr>
+    <td>Select study location</td>
+    <td>Display “complete session creation” button</td>
+  </tr>
+  <tr>
+    <td>Select “Complete Session Creation” button</td>
+    <td>Display Study Session creation confirmation</td>
+  </tr>
+</table></center>
+
+<br><center><h4>CONCRETE USE CASE</h4></center>
+<center><table class="cdtables">
+  <tr>
+    <td><b>User's Purpose</b></td>
+    <td><b>System Response</b></td>
+  </tr>
+  <tr>
+    <td>The student selects create group button at main screen</td>
+    <td>The system displays all of the student’s courses in their profile</td>
+  </tr>
+  <tr>
+    <td>The student selects the course they want to start a study session for</td>
+    <td>The system displays all possible locations where the study session can take place</td>
+  </tr>
+  <tr>
+    <td>The student selects the desired location for their study session</td>
+    <td>The system displays a “complete study session creation” button</td>
+  </tr>
+  <tr>
+    <td>The student selects the “complete study session creation” button</td>
+    <td>The system displays confirmation that the study session was created</td>
+  </tr>
+</table></center>
+
+<br>
+<center>
+  <div class="tables"><table class="cdtables">
+  <tr class="tablehigh">
+    <td><b>Task Object</b></td>
+    <td><b>Attributes</b></td>
+    <td><b>Actions</b></td>
+  </tr>
+  <tr>
+    <td>Student</td>
+    <td>Profile</td>
+    <td>Show Courses</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Add Course</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Drop Course</td>
+  </tr>
+</table>
+
+<table class="cdtables">
+  <tr class="tablehigh2">
+    <td><b>Task Object</b></td>
+    <td><b>Attributes</b></td>
+    <td><b>Actions</b></td>
+  </tr>
+  <tr>
+    <td>Course</td>
+    <td>Course Name</td>
+    <td>See Groups</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Course Code</td>
+    <td>Join Groups</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Section</td>
+    <td></td>
+  </tr>
+</table>
+</div>
+<br clear="all"><br>
+<table class="cdtables">
+  <tr class="tablehigh2">
+    <td><b>Task Object</b></td>
+    <td><b>Attributes</b></td>
+    <td><b>Actions</b></td>
+  </tr>
+  <tr>
+    <td>Location</td>
+    <td>Location Name</td>
+    <td>See Address</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Location Coordinates</td>
+    <td>Set Address</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Street Name</td>
+    <td>Change Address</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Street Number</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>City</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>State</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Zipcode</td>
+    <td></td>
+  </tr>
+</table>
+
+</center>
+<br>
+
+
+          </div>
+        </div>
+</div>
+  </article>
+  <footer>
+    Copynotright 2016
+  </footer>
+    </div>
+    </div>
+</body>
+</html>
