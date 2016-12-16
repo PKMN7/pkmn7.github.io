@@ -703,3 +703,33 @@ div.five1 p#a {
 .results h3{
   text-align: center;
 }
+.persona{
+  float:left;
+  width: 50%;
+  padding: 1em;
+}
+.persona:hover{
+  float:left;
+  width: 50%;
+  padding: 1em;
+  opacity: 0.6;
+}
+.persona h3{
+  text-align: center;
+}
+#overlay{
+      height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  overflow-x: hidden;
+  background-color:rgba(0,0,0,0.8)
+}
+#focus{
+  text-align: center;
+  margin-top: 5%;
+margin-bottom: 5%;
+color:white;
+}
