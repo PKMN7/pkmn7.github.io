@@ -708,10 +708,7 @@ div.five1 p#a {
   width: 50%;
   padding: 1em;
 }
-.persona:hover{
-  float:left;
-  width: 50%;
-  padding: 1em;
+.persona img:hover{
   opacity: 0.6;
 }
 .persona h3{
