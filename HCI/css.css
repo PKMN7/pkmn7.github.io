@@ -695,3 +695,11 @@ div.five1 p#a {
                         display: table-cell;
                         vertical-align: middle;
                     }
+
+.results{
+  float:left;
+  width: 50%;
+}
+.results h3{
+  text-align: center;
+}
