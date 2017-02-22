@@ -1,0 +1,53 @@
+html,body {
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+.container{
+  width: 100%;
+}
+.leftTab{
+  float: left;
+  height: 100%;
+  width: 50%;
+  margin:0;
+  padding:0;
+}
+.rightTab{
+  float: right;
+  height: 100%;
+  width: 50%;
+  margin:0;
+  padding:0;
+}
+.bussesTab{
+  height: 65%;
+  background-color: black;
+  margin:0;
+  padding:0;
+  width: 100%;
+}
+.reutersTab{
+  margin:0;
+  padding:0;
+  background-color: red;
+  height: 100%;
+  overflow: hidden;
+}
+.weatherTab{
+  margin:0;
+  padding:0;
+  height: 35%;
+  width:100%;
+  float: right;
+
+}
+.days li{
+  float:left;
+  width:18%;
+  margin-left: 1%;
+  margin-right: 1%;
+  list-style: none;
+  border-color: black;
+
+}
