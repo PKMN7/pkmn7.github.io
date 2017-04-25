@@ -144,3 +144,14 @@ display: block;
 .galleryitem img{
   width: 95%;
 }
+#link{
+
+  border-radius: 10px;
+  background-color: grey;
+  text-align: center;
+  color: #61ff56;
+  text-decoration: none;
+}
+#linklink{
+  text-decoration: none;
+}
